@@ -11,7 +11,6 @@
 
 ## Технологии
 
-Python 3, Django, Django REST Framework, SQLite, Simple-JWT, GIT
   - Python 3
   - Django
   - Django Rest Framework

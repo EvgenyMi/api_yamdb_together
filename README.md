@@ -9,6 +9,14 @@
 Пользователи могут оставлять ***комментарии*** к отзывам.
 Добавлять отзывы, комментарии и ставить оценки могут только _аутентифицированные пользователи_.
 
+## Технологии
+
+Python 3, Django, Django REST Framework, SQLite, Simple-JWT, GIT
+  - Python 3
+  - Django
+  - Django Rest Framework
+  - SQLite
+
 ## Примеры некоторых запросов к API:
 ### Регистрация нового пользователя
 Получить код подтверждения на переданный email. Права доступа: Доступно без токена. Использовать имя 'me' в качестве username запрещено. Поля email и username должны быть уникальными.
@@ -103,7 +111,7 @@ GET http://127.0.0.1:8000/api/v1/users/me/
 
 **Клонировать репозиторий и перейти в него в командной строке:**
 ```
-git@github.com:Hottys/api_yamdb.git
+git clone https://github.com/EvgenyMi/api_yamdb_together.git
 ```
 ```
 cd api_yamdb
@@ -117,21 +125,24 @@ source venv/Scripts/activate
 ```
 **Установить зависимости из файла requirements.txt:**
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 ```
 pip install -r requirements.txt
 ```
 **Выполнить миграции:**
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 **Запустить проект:**
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 ## Об авторах
 
+- https://github.com/EvgenyMi - Евгений
+  - Модели, views, serializers и эндпоинты для отзывов и комментариев
+  - Рейтинг произведений
 - https://github.com/Denis-Krapp - Денис 
   - Модели, views, serializers и эндпоинты для произведений, категорий и жанров
   - Импорт данных из csv файлов
@@ -142,13 +153,3 @@ python3 manage.py runserver
   - Модель, views, serializers и эндпоинты для пользователя
   - Права досупа
   - Токены
-- https://github.com/EvgenyMi - Евгений
-  - Модели, views, serializers и эндпоинты для отзывов и комментариев
-  - Рейтинг произведений
-## Технологии
-Много сил и времени ушло на содание данного проекта, который является для нас первым групповым проектом. Мы тщательно изучали теорию и документации.
-
-Приложения, которые были использованы при создани  проекта:
-  - Python
-  - Django
-  - Django Rest Framework

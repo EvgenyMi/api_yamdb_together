@@ -143,13 +143,12 @@ python manage.py runserver
 - https://github.com/EvgenyMi - Евгений
   - Модели, views, serializers и эндпоинты для отзывов и комментариев
   - Рейтинг произведений
+  - README файл
 - https://github.com/Denis-Krapp - Денис 
   - Модели, views, serializers и эндпоинты для произведений, категорий и жанров
   - Импорт данных из csv файлов
-  - README файл
 - https://github.com/Hottys - Михаил
   - Система регистрации и аутентификации
   - Система подтвержения через e-mail
   - Модель, views, serializers и эндпоинты для пользователя
-  - Права досупа
-  - Токены
+  - Права досупа и токены
